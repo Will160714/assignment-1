@@ -1,5 +1,53 @@
-body {
-  font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+body{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  background-color: rgba(3, 123, 3, 0.562);
+  padding-bottom: 30px;
+}
+
+h1{
   text-align: center;
+}
+
+.heading{
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  background-image: url("../img/Jungle.jpg");
+  background-size: cover;
+  color: white; 
+}
+
+.heading h1{
+  font-size: 60px;
+}
+
+.heading p{
+  font-size: 30px;
+}
+
+.content{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.animal{
+  display: flex;
+  flex-direction: column; 
+  border: 2px solid black; 
+  border-radius: 10%;
+  width: 350px;
+  height: 300px;
+}
+
+.animal img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  object-fit: cover;
 }
